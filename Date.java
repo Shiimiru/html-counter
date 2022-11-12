@@ -32,7 +32,7 @@ public class Date{
               
             break;                  
         }*/
-        if(mois==1||mois==3||mois==5|mois==7||mois==8||mois==10||mois==12){//mois%2<==1&&mois<8||mois%2>==1&&mois>8
+        if(mois==1||mois==3||mois==5||mois==7||mois==8||mois==10||mois==12){//mois%2<==1&&mois<8||mois%2>==1&&mois>8
             return 31;
         }else if (mois==4||mois==6||mois==9||mois==11){
             return 30;
